@@ -55,7 +55,7 @@ class Header_writer :
 
 
 def get_node_info_str(i_node, node) :
-    x_node, y_node, z_node = node.coordinate_u(), node.coordinate_v(), default.position_w
+    x_node, y_node, z_node = node.coordinate_x(), node.coordinate_y(), default.position_w
     return np.str(i_node) + ' ' + np.str(x_node) + ' ' + np.str(y_node) + ' ' + np.str(z_node)  + '\n'
 
 class Nodes_writer :
