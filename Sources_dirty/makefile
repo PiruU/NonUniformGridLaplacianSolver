@@ -1,0 +1,2 @@
+clean :
+	erase *~ *.msh

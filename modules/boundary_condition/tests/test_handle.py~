@@ -1,0 +1,11 @@
+import os.path
+import sys
+import pytest
+import numpy
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+import handle
+
+def test_make_cosine() :
+    my_handle = handle.make()
